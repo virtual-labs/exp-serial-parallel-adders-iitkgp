@@ -1,39 +1,72 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "For a 4-bit parallel adder, if the carry-in is connected to a logical HIGH, the result is __________",
+        "answers": {
+          "a": "The same as if the carry-in is tied LOW since the least significant carry-in is ignored",
+          "b": "That carry-out will always be HIGH",
+          "c": "A one will be added to the final result",
+          "d": "The carry-out is ignored"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "Why XOR gate is called an inverter?",
+        "answers": {
+          "a": "Because of the same input",
+          "b": "Because of the same output",
+          "c": "It behaves like a NOT gate",
+          "d": "It behaves like a AND gate"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "The inverter can be produced with how many NAND gates?",
+        "answers": {
+          "a": "2",
+          "b": "1",
+          "c": "3",
+          "d": "4"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "In serial addition, the addition is carried out __________",
+        "answers": {
+          "a": "3 bit per second",
+          "b": "Byte by byte",
+          "c": "Bit by bit",
+          "d": "All bits at the same time"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "How many shift registers are used in a 4 bit serial adder?",
+        "answers": {
+          "a": "4",
+          "b": "3",
+          "c": "2",
+          "d": "5"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "A D flip-flop is used in a 4-bit serial adder, why?",
+        "answers": {
+          "a": "It is used to invert the input of the full adder",
+          "b": "It is used to store the output of the full adder",
+          "c": "It is used to store the carry output of the full adder",
+          "d": "It is used to store the sum output of the full adder"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  
