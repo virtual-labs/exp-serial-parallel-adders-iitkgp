@@ -1,0 +1,50 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What is the major difference between half-adders and full-adders",
+        "answers": {
+          "a": "Full-adders are made up of two half-adders",
+          "b": "Full adders can handle double-digit numbers",
+          "c": "Full adders have a carry input capability",
+          "d": "Half adders can handle only single-digit numbers"
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Which of the following is correct for full adders?",
+        "answers": {
+          "a": "Full adders have the capability of directly adding decimal numbers",
+          "b": "Full adders are used to make half adders",
+          "c": "Full adders are limited to two inputs since there are only two binary digits",
+          "d": "In a parallel full adder, the first stage may be a half adder"
+        },
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What are carry generate combinations?",
+        "answers": {
+          "a": "If all the input are same then a carry is generated",
+          "b": "If all of the output are independent of the inputs",
+          "c": "If all of the input are dependent on the output",
+          "d": "If all of the output are dependent on the input"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What is ripple carry adder?",
+        "answers": {
+          "a": "The carry output of the lower order stage is connected to the carry input of the next higher order stage",
+          "b": "The carry input of the lower order stage is connected to the carry output of the next higher order stage",
+          "c": "The carry output of the higher order stage is connected to the carry input of the next lower order stage",
+          "d": "The carry input of the higher order stage is connected to the carry output of the lower order stage"
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  
